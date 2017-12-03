@@ -12,7 +12,7 @@ public class HW4 {
 		player2.sayHello();
 		int p1Bet=player1.makeBet();
 		int p2Bet=player2.makeBet();
-		ArrayList<Card> player1Card=new ArrayList<Card>();
+		ArrayList<Card> player1Card = new ArrayList<Card>();
 		player1Card.add(deck.getOneCard(true));
 		player1Card.add(deck.getOneCard(true));
 		player1.setOneRoundCard(player1Card);
